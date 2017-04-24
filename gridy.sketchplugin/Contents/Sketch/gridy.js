@@ -45,7 +45,7 @@ function superMainFunc (context, whatWeDo) {
 
 	function createVeticalGuides () {
 		var input = Number(doc.askForUserInput_initialValue("Amount of sections", "1"));
-		var unit = layerWidth / input
+		var unit = Math.round(layerWidth / input)
 		[[target horizontalRulerData] addGuideWithValue:layerXMin]
 		[[target horizontalRulerData] addGuideWithValue: layerXMax]
 		if (input > 1) {
@@ -58,7 +58,7 @@ function superMainFunc (context, whatWeDo) {
 
 	function createHorizontalGuides () {
 		var input = Number(doc.askForUserInput_initialValue("Amount of sections", "1"));
-		var unit = layerHeight / input
+		var unit = Math.round(layerHeight / input)
 		[[target verticalRulerData] addGuideWithValue:layerYMin]
 		[[target verticalRulerData] addGuideWithValue:layerYMax]
 		if (input > 1) {
