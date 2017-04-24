@@ -44,7 +44,7 @@ function superMainFunc (context, whatWeDo) {
 		}
 
 	function createVeticalGuides () {
-		var input = Number(doc.askForUserInput_initialValue("Amount of sections", "1"));
+		var input = Number(doc.askForUserInput_initialValue("Amount of sections", "12"));
 		var unit = Math.round(layerWidth / input)
 		[[target horizontalRulerData] addGuideWithValue:layerXMin]
 		[[target horizontalRulerData] addGuideWithValue: layerXMax]
