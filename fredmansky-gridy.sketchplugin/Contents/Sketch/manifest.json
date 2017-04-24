@@ -13,21 +13,21 @@
       "name": "Vertical guides",
       "identifier": "verticalGuides",
       "shortcut": "ctrl alt v",
-      "script": "gridy.js",
+      "script": "fredmansky-gridy.js",
       "handler": "createVerticalGuides"
     },
     {
       "name": "Horizontal guides",
       "identifier": "horizontalGuides",
       "shortcut": "ctrl alt h",
-      "script": "gridy.js",
+      "script": "fredmansky-gridy.js",
       "handler": "createHorizontalGuides"
     },
     {
       "name": "Remove all guides",
       "identifier": "allGuides",
       "shortcut": "ctrl alt r",
-      "script": "gridy.js",
+      "script": "fredmansky-gridy.js",
       "handler": "removeAllGuides",
     }
   ],
